@@ -1,0 +1,40 @@
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement virtuel
+venv/
+.venv/
+
+# Fichiers d’environnement et de configuration
+.env
+*.env
+
+# Logs et bases de données
+*.log
+*.sqlite3
+*.db
+
+# Checkpoints Jupyter
+.ipynb_checkpoints
+
+# Caches
+.cache/
+*.cache
+
+# Modèles ML
+*.joblib
+*.pkl
+*.h5
+
+# Flask files
+instance/
+migrations/
+
+# VS Code
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
